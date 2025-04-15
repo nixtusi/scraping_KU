@@ -7,9 +7,9 @@ from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-number = "2435109t"
-password = "SdjTf=8Q"
-quarter = 2
+number = "24XXXXXt" # 学生番号（例: XXXXXXXx）
+password = "PPPPPPPPP" # パスワード（例: XXXXXXXX）
+quarter = 2 #クォーター（1, 2, 3, 4）
 
 print("🧭 Chromeドライバ起動中...")
 try:

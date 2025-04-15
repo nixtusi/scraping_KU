@@ -15,8 +15,9 @@ except Exception as e:
 bace_url = "https://beefplus.center.kobe-u.ac.jp"
 login_url = "/saml/loginyu?disco=true"
 target_url = "/lms/task"
-number = "2435109t"
-password = "SdjTf=8Q"
+
+number = "24XXXXXt" # 学生番号（例: XXXXXXXx）
+password = "PPPPPPPPP" # パスワード（例: XXXXXXXX）
 
 print("🌐 ログインページにアクセス中...")
 driver.get(bace_url + login_url)
